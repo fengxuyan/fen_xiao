@@ -1,0 +1,219 @@
+body, html {
+  height: 100%;
+  -webkit-tap-highlight-color: transparent;
+  background-color: #efeff4;
+}
+
+.personal {
+
+
+  background: -webkit-linear-gradient(bottom, #B1B3B5, #efeff4 40%, #efeff4); /* Safari 5.1 - 6.0 */
+  background: -o-linear-gradient(bottom, #B1B3B5, #efeff4 40%, #efeff4); /* Opera 11.1 - 12.0 */
+  background: -moz-linear-gradient(bottom, #B1B3B5, #efeff4 40%, #efeff4); /* Firefox 3.6 - 15 */
+  background: linear-gradient(to bottom, #B1B3B5, #efeff4 40%, #efeff4); /* 标准的语法（必须放在最后） */
+
+  .head {
+    position: relative;
+    padding: 0 .3rem;
+    margin-top: .3rem;
+
+    .weui-cell {
+      padding: 0 .3rem;
+    }
+  }
+
+  .nickname {
+    color: #fff;
+    font-size: .45rem;
+  }
+
+  .icon-box {
+    display: flex;
+    align-items: center;
+  }
+
+  .right-box {
+    position: absolute;
+    top: 0;
+    right: .3rem;
+  }
+
+  .weui-flex {
+
+    align-items: center;
+  }
+
+  .weui-cells {
+    margin: 0;
+    background: none;
+  }
+
+
+  .weui-cell:before, .weui-cells:before, .weui-cells:after {
+    border: 0;
+  }
+
+  .memebership {
+    padding: .1rem .2rem .1rem .1rem;
+    background-color: #DFE0E2;
+    border-radius: 20px;
+    font-size: .3rem;
+
+    i {
+      width: .5rem;
+      height: .5rem;
+      display: inline-block;
+      background-image: url(../img/fy_ic_vip.png);
+      background-size: contain;
+      background-repeat: no-repeat;
+      vertical-align: middle;
+      margin-bottom: .1rem;
+      margin-right: .1rem;
+    }
+  }
+
+  .integral {
+    padding: .1rem .2rem;
+    background-color: #DFE0E2;
+    border-radius: 20px;
+    font-size: .3rem;
+    margin-left: .2rem;
+  }
+
+  .icon-setting {
+    width: .6rem;
+    height: .6rem;
+    display: inline-block;
+    background-image: url("../img/setting.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    vertical-align: bottom;
+  }
+
+  .icon-kefu {
+    margin-left: .6rem;
+    width: .65rem;
+    height: .65rem;
+    display: inline-block;
+    background-image: url("../img/service.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    vertical-align: bottom;
+  }
+
+  .avatar {
+    width: 1.5rem;
+    height: 1.5rem;
+
+    img {
+      border-radius: 50%;
+      width: 100%;
+      height: 100%;
+    }
+  }
+
+  .card {
+    margin: .3rem;
+    border-radius: 10px;
+    background-color: #fff;
+
+    .weui-cell {
+      width: 80%;
+      padding: .1rem;
+      padding-left: .2rem;
+    }
+
+    .card-box {
+      padding: 0 .2rem;
+      border-right: 1px solid #efefef;
+      text-align: center;
+      margin: .2rem 0;
+    }
+
+    .memeber-class {
+      .member-txt {
+        font-weight: bold;
+        font-size: .45rem;
+        color: #A6A6A6;
+      }
+
+      .member-des {
+        display: block;
+        color: #A6A39C;
+        font-size: .3rem;
+      }
+    }
+
+    .warn {
+      .warn-txt {
+        font-size: .4rem;
+      }
+
+      .warn-des {
+        color: #A6A39C;
+        font-size: .3rem;
+
+        span {
+          color: #DDB172;
+        }
+      }
+    }
+
+    .warn-box {
+      overflow: hidden;
+    }
+
+    .center {
+      font-size: .35rem;
+      margin-right: .2rem;
+
+      span {
+        color: #fff;
+        padding: .2rem .2rem;
+        background-color: #DDB172;
+        border-radius: 15px;
+      }
+    }
+  }
+
+  .weui-media-box__title {
+    width: 80%;
+  }
+
+  .order-container {
+    margin: .3rem;
+    border-radius: 10px;
+    background-color: #fff;
+    font-size: .4rem;
+
+    a {
+      font-size: .4rem;
+    }
+
+    .order-box {
+      .order-icon {
+        text-align: center;
+      }
+
+      border-top: 1px solid #efefef;
+      padding: .3rem 0;
+      color: #3d4145;
+      font-size: .35rem;
+    }
+
+    .icon {
+      display: block;
+      margin: 0 auto;
+      width: .75rem;
+      height: .75rem;
+
+      img {
+        width: 100%;
+        height: 100%;
+      }
+    }
+  }
+}
+
+
+

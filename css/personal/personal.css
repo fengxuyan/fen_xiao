@@ -1,0 +1,147 @@
+@charset "UTF-8";
+body, html {
+  height: 100%;
+  -webkit-tap-highlight-color: transparent;
+  background-color: #efeff4; }
+
+.personal {
+  background: -webkit-linear-gradient(bottom, #B1B3B5, #efeff4 40%, #efeff4);
+  /* Safari 5.1 - 6.0 */
+  background: -o-linear-gradient(bottom, #B1B3B5, #efeff4 40%, #efeff4);
+  /* Opera 11.1 - 12.0 */
+  background: -moz-linear-gradient(bottom, #B1B3B5, #efeff4 40%, #efeff4);
+  /* Firefox 3.6 - 15 */
+  background: linear-gradient(to bottom, #B1B3B5, #efeff4 40%, #efeff4);
+  /* 标准的语法（必须放在最后） */ }
+  .personal .head {
+    position: relative;
+    padding: 0 .3rem;
+    margin-top: .3rem; }
+    .personal .head .weui-cell {
+      padding: 0 .3rem; }
+  .personal .nickname {
+    color: #fff;
+    font-size: .45rem; }
+  .personal .icon-box {
+    display: flex;
+    align-items: center; }
+  .personal .right-box {
+    position: absolute;
+    top: 0;
+    right: .3rem; }
+  .personal .weui-flex {
+    align-items: center; }
+  .personal .weui-cells {
+    margin: 0;
+    background: none; }
+  .personal .weui-cell:before, .personal .weui-cells:before, .personal .weui-cells:after {
+    border: 0; }
+  .personal .memebership {
+    padding: .1rem .2rem .1rem .1rem;
+    background-color: #DFE0E2;
+    border-radius: 20px;
+    font-size: .3rem; }
+    .personal .memebership i {
+      width: .5rem;
+      height: .5rem;
+      display: inline-block;
+      background-image: url(../../img/fy_ic_vip.png);
+      background-size: contain;
+      background-repeat: no-repeat;
+      vertical-align: middle;
+      margin-bottom: .1rem;
+      margin-right: .1rem; }
+  .personal .integral {
+    padding: .1rem .2rem;
+    background-color: #DFE0E2;
+    border-radius: 20px;
+    font-size: .3rem;
+    margin-left: .2rem; }
+  .personal .icon-setting {
+    width: .6rem;
+    height: .6rem;
+    display: inline-block;
+    background-image: url("../../img/setting.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    vertical-align: bottom; }
+  .personal .icon-kefu {
+    margin-left: .6rem;
+    width: .65rem;
+    height: .65rem;
+    display: inline-block;
+    background-image: url("../../img/service.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    vertical-align: bottom; }
+  .personal .avatar {
+    width: 1.5rem;
+    height: 1.5rem; }
+    .personal .avatar img {
+      border-radius: 50%;
+      width: 100%;
+      height: 100%; }
+  .personal .card {
+    margin: .3rem;
+    border-radius: 10px;
+    background-color: #fff; }
+    .personal .card .weui-cell {
+      width: 80%;
+      padding: .1rem;
+      padding-left: .2rem; }
+    .personal .card .card-box {
+      padding: 0 .2rem;
+      border-right: 1px solid #efefef;
+      text-align: center;
+      margin: .2rem 0; }
+    .personal .card .memeber-class .member-txt {
+      font-weight: bold;
+      font-size: .45rem;
+      color: #A6A6A6; }
+    .personal .card .memeber-class .member-des {
+      display: block;
+      color: #A6A39C;
+      font-size: .3rem; }
+    .personal .card .warn .warn-txt {
+      font-size: .4rem; }
+    .personal .card .warn .warn-des {
+      color: #A6A39C;
+      font-size: .3rem; }
+      .personal .card .warn .warn-des span {
+        color: #DDB172; }
+    .personal .card .warn-box {
+      overflow: hidden; }
+    .personal .card .center {
+      font-size: .35rem;
+      margin-right: .2rem; }
+      .personal .card .center span {
+        color: #fff;
+        padding: .2rem .2rem;
+        background-color: #DDB172;
+        border-radius: 15px; }
+  .personal .weui-media-box__title {
+    width: 80%; }
+  .personal .order-container {
+    margin: .3rem;
+    border-radius: 10px;
+    background-color: #fff;
+    font-size: .4rem; }
+    .personal .order-container a {
+      font-size: .4rem; }
+    .personal .order-container .order-box {
+      border-top: 1px solid #efefef;
+      padding: .3rem 0;
+      color: #3d4145;
+      font-size: .35rem; }
+      .personal .order-container .order-box .order-icon {
+        text-align: center; }
+    .personal .order-container .icon {
+      display: block;
+      margin: 0 auto;
+      width: .75rem;
+      height: .75rem; }
+      .personal .order-container .icon img {
+        width: 100%;
+        height: 100%; }
+
+/*# sourceMappingURL=personal.css.map */

@@ -1,0 +1,9 @@
+$(function () {
+    FastClick.attach(document.body);
+});
+
+$(".swiper-container").swiper({
+    loop: true,
+    autoplay: 3000
+});
+

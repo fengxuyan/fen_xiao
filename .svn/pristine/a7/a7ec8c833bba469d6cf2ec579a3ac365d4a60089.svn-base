@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>电子烟</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+
+    <link rel="stylesheet" href="../../plugins/css/weui.css?ver=0.9.9">
+    <link rel="stylesheet" href="../../plugins/css/jquery-weui.css?ver=0.9.9">
+    <link rel="stylesheet" href="../../css/personal.css?ver=0.9.9">
+
+</head>
+
+<body>
+
+<div class="weui-tab personal">
+    <div class="weui-tab__bd">
+        <div class="weui-tab__bd-item weui-tab__bd-item--active">
+            <div class="weui-flex head">
+                <div>
+                    <div class="placeholder avatar"><img src="../../img/test5.jpg"/></div>
+                </div>
+                <div class="weui-flex__item">
+                    <div class="placeholder">
+                        <div class="weui-cells">
+                            <div class="weui-cell">
+                                <div class="weui-cell__bd nickname">
+                                    <p>小李子</p>
+                                </div>
+                            </div>
+                            <div class="weui-cell">
+                                <div class="weui-cell__bd">
+
+                                    <span class="memebership"><i></i>银卡会员</span>
+                                    <span class="integral">信用分200</span>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="right-box">
+                    <div class="placeholder icon-box"><span class="icon-setting"></span><span class="icon-kefu"></span>
+                    </div>
+                </div>
+            </div>
+            <div class="weui-flex card">
+                <div class="card-box">
+                    <div class="placeholder memeber-class"><span class="member-txt">银卡会员</span><span class="member-des">权益价值200</span>
+                    </div>
+                </div>
+                <div class="weui-flex__item warn-box">
+                    <div class="placeholder warn">
+                        <div class="weui-cells">
+                            <div class="weui-cell">
+                                <div class="weui-cell__bd ">
+                                    <p class="warn-txt">权益使用提醒</p>
+                                    <p class="weui-media-box__title warn-des">您有<span>1次抢票加速</span>权益，立即兑换</p>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="">
+                    <div class="placeholder center"><span>会员中心</span></div>
+                </div>
+            </div>
+            <div class="order-container">
+                <div class="weui-cells">
+                    <a class="weui-cell weui-cell_access" href="javascript:;">
+                        <div class="weui-cell__bd">
+                            <p>我的订单</p>
+                        </div>
+                        <div class="weui-cell__ft">全部订单</div>
+                    </a>
+                </div>
+
+                <div class="weui-flex order-box">
+                    <div class="weui-flex__item order-icon">
+                        <span class="icon"><img src="../../img/pay.svg"/></span>
+                        <span>待付款</span>
+                    </div>
+                    <div class="weui-flex__item order-icon">
+                        <span class="icon"><img src="../../img/manage.png"/></span>
+                        <span>待发货</span>
+                    </div>
+                    <div class="weui-flex__item order-icon">
+                        <span class="icon"><img src="../../img/shouhuo.svg"/></span>
+                        <span>待收货</span>
+                    </div>
+                    <div class="weui-flex__item order-icon">
+                        <span class="icon"><img src="../../img/assets.png"/></span>
+                        <span>待评价</span>
+                    </div>
+                    <div class="weui-flex__item order-icon">
+                        <span class="icon"><img src="../../img/refund.png"/></span>
+                        <span>退款/售后</span>
+                    </div>
+                </div>
+
+            </div>
+            <div class="order-container tools-container">
+                <div class="weui-cells">
+                    <a class="weui-cell weui-cell_access" href="javascript:;">
+                        <div class="weui-cell__bd">
+                            <p>常用工具</p>
+                        </div></a>
+                </div>
+
+                <div class="weui-flex order-box">
+                    <div class="weui-flex__item order-icon">
+                        <span class="icon"><img src="../../img/address.png"/></span>
+                        <span>收货地址</span>
+                    </div>
+                    <div class="weui-flex__item order-icon">
+                        <span class="icon"><img src="../../img/shuoming.svg"/></span>
+                        <span>政策说明</span>
+                    </div>
+                    <div class="weui-flex__item"></div>
+                    <div class="weui-flex__item"></div>
+                    <div class="weui-flex__item"></div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <div class="weui-tabbar">
+        <a href="../home/home.html" class="weui-tabbar__item ">
+            <div class="weui-tabbar__icon">
+                <img src="../../img/home.svg" alt="">
+            </div>
+            <p class="weui-tabbar__label">首页</p>
+        </a>
+        <a href="../money/make_money.html" class="weui-tabbar__item">
+            <div class="weui-tabbar__icon">
+                <img src="../../img/money.svg" alt="">
+            </div>
+            <p class="weui-tabbar__label">赚钱</p>
+        </a>
+        <a href="personal.html" class="weui-tabbar__item weui-bar__item--on">
+            <div class="weui-tabbar__icon">
+                <img src="../../img/mine_active.svg" alt="">
+            </div>
+            <p class="weui-tabbar__label">我的</p>
+        </a>
+    </div>
+</div>
+
+<script src="../../plugins/js/jquery-2.1.4.js?ver=0.9.9"></script>
+<script src="../../plugins/js/jquery-weui.min.js?ver=0.9.9"></script>
+<script src="../../plugins/js/fastclick.js?ver=0.9.9"></script>
+<script src="../../plugins/js/rem.js?ver=0.9.9"></script>
+
+<script src="../../js/common.js?ver=0.9.9"></script>
+
+<script>
+    $(function () {
+        FastClick.attach(document.body);
+    });
+</script>
+
+
+</body>
+</html>

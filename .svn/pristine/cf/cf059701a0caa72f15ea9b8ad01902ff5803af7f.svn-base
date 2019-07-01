@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>电子烟</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+
+    <link rel="stylesheet" href="../../plugins/css/weui.css?ver=0.9.9">
+    <link rel="stylesheet" href="../../plugins/css/jquery-weui.css?ver=0.9.9">
+    <link rel="stylesheet" href="../../css/home.css?ver=0.9.9">
+
+</head>
+
+<body>
+
+<div class="weui-tab">
+    <div class="weui-tab__bd">
+        <div class="main-box weui-tab__bd-item weui-tab__bd-item--active">
+            <div class="swiper-container">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide"><img src="../../img/test5.jpg" alt=""></div>
+                    <div class="swiper-slide"><img src="../../img/test5.jpg" alt=""></div>
+                    <div class="swiper-slide"><img src="../../img/test5.jpg" alt=""></div>
+                </div>
+                <div class="swiper-pagination"></div>
+            </div>
+
+            <div class="weui-panel weui-panel_access newproduct">
+                <div class="weui-panel__ft">
+                    <a href="javascript:void(0);" class="weui-cell weui-cell_access weui-cell_link newproduct_more">
+                        <div class="weui-cell__bd">新品推荐</div>
+                        <span class="weui-cell__ft">查看更多</span>
+                    </a>
+                </div>
+                <div class="weui-panel__bd">
+                    <div class="weui-media-box weui-media-box_text">
+                        <h4 class="weui-media-box__title"><img class="good_pic" src="../../img/test5.jpg" alt=""></h4>
+                        <p class="weui-media-box__title">由各种物质组成的巨型球状天体，叫做星球。星球有一定的形状，有自己的运行轨道。</p>
+                        <p class="weui-media-box__desc">星球有一定的形状，有自己的运行轨道。</p>
+                        <p class="weui-media-box__desc price">￥199 <span class="delete">￥299</span></p>
+                    </div>
+                    <div class="weui-media-box weui-media-box_text">
+                        <h4 class="weui-media-box__title"><img class="good_pic" src="../../img/test5.jpg" alt=""></h4>
+                        <p class="weui-media-box__title">由各种物质组成的巨型球状天体，叫做星球。星球有一定的形状，有自己的运行轨道。</p>
+                        <p class="weui-media-box__desc">星球有一定的形状，有自己的运行轨道。</p>
+                        <p class="weui-media-box__desc price">￥199 <span class="delete">￥299</span></p>
+                    </div>
+                    <div class="weui-media-box weui-media-box_text">
+                        <h4 class="weui-media-box__title"><img class="good_pic" src="../../img/test5.jpg" alt=""></h4>
+                        <p class="weui-media-box__title">由各种物质组成的巨型球状天体，叫做星球。星球有一定的形状，有自己的运行轨道。</p>
+                        <p class="weui-media-box__desc">星球有一定的形状，有自己的运行轨道。</p>
+                        <p class="weui-media-box__desc price">￥199 <span class="delete">￥299</span></p>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="weui-panel weui-panel_access hotproduct">
+                <div class="weui-panel__ft">
+                    <a href="javascript:void(0);" class="weui-cell weui-cell_access weui-cell_link hotproduct_more">
+                        <div class="weui-cell__bd">人气商品</div>
+                        <span class="weui-cell__ft">查看更多</span>
+                    </a>
+                </div>
+                <div class="weui-panel__bd">
+                    <div class="weui-media-box pic-box">
+                        <div class="weui-flex__item">
+                            <img class="good_pic" src="../../img/test5.jpg" alt="">
+                            <div class="item-box">
+                                <p>星球有一定的形状，有自己的运行轨道。星球有一定的形状，有自己的运行轨道。</p>
+                                <p class="weui-media-box__desc price">￥199 <span class="hot">11299</span></p>
+                            </div>
+                        </div>
+                        <div class="weui-flex__item">
+                            <img class="good_pic" src="../../img/test5.jpg" alt="">
+                            <div class="item-box">
+                                <p>星球有一定的形状，有自己的运行轨道。星球有一定的形状，有自己的运行轨道。</p>
+                                <p class="weui-media-box__desc price">￥199 <span class="hot">11299</span></p>
+                            </div>
+                        </div>
+                        <div class="weui-flex__item">
+                            <img class="good_pic" src="../../img/test5.jpg" alt="">
+                            <div class="item-box">
+                                <p>星球有一定的形状，有自己的运行轨道。星球有一定的形状，有自己的运行轨道。</p>
+                                <p class="weui-media-box__desc price">￥199 <span class="hot">11299</span></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="cart-box">
+                <img src="../../img/cart_float.svg"/>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="weui-tabbar">
+        <a href="home.html" class="weui-tabbar__item weui-bar__item--on">
+            <div class="weui-tabbar__icon">
+                <img src="../../img/home_active.svg" alt="">
+            </div>
+            <p class="weui-tabbar__label">首页</p>
+        </a>
+        <a href="../money/make_money.html" class="weui-tabbar__item">
+            <div class="weui-tabbar__icon">
+                <img src="../../img/money.svg" alt="">
+            </div>
+            <p class="weui-tabbar__label">赚钱</p>
+        </a>
+        <a href="../personal/personal.html" class="weui-tabbar__item">
+            <div class="weui-tabbar__icon">
+                <img src="../../img/mine.svg" alt="">
+            </div>
+            <p class="weui-tabbar__label">我的</p>
+        </a>
+    </div>
+</div>
+
+<script src="../../plugins/js/jquery-2.1.4.js?ver=0.9.9"></script>
+<script src="../../plugins/js/jquery-weui.min.js?ver=0.9.9"></script>
+<script src="../../plugins/js/fastclick.js?ver=0.9.9"></script>
+<script src="../../plugins/js/rem.js?ver=0.9.9"></script>
+<script src="../../plugins/js/swiper.js?ver=0.9.9"></script>
+
+<script src="../../js/common.js?ver=0.9.9"></script>
+<script src="../../js/home.js?ver=0.9.9"></script>
+</body>
+</html>

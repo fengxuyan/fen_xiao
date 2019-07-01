@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>电子烟</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="description" content="">
+
+    <link rel="stylesheet" href="../../plugins/css/weui.css?ver=0.9.9">
+    <link rel="stylesheet" href="../../plugins/css/jquery-weui.css?ver=0.9.9">
+    <link rel="stylesheet" href="../../css/home.css?ver=0.9.9">
+
+</head>
+
+<body>
+
+<div class="weui-tab">
+    <div class="weui-tab__bd">
+        <div id="tab2" class="weui-tab__bd-item weui-tab__bd-item--active">
+            <h1>页面二</h1>
+        </div>
+    </div>
+
+    <div class="weui-tabbar">
+        <a href="../home/home.html" class="weui-tabbar__item ">
+            <div class="weui-tabbar__icon">
+                <img src="../../img/home.svg" alt="">
+            </div>
+            <p class="weui-tabbar__label">首页</p>
+        </a>
+        <a href="make_money.html" class="weui-tabbar__item weui-bar__item--on">
+            <div class="weui-tabbar__icon">
+                <img src="../../img/money_active.svg" alt="" >
+            </div>
+            <p class="weui-tabbar__label">赚钱</p>
+        </a>
+        <a href="../personal/personal.html" class="weui-tabbar__item">
+            <div class="weui-tabbar__icon">
+                <img src="../../img/mine.svg" alt="">
+            </div>
+            <p class="weui-tabbar__label">我的</p>
+        </a>
+    </div>
+</div>
+
+<script src="../../plugins/js/jquery-2.1.4.js?ver=0.9.9"></script>
+<script src="../../plugins/js/jquery-weui.min.js?ver=0.9.9"></script>
+<script src="../../plugins/js/fastclick.js?ver=0.9.9"></script>
+<script src="../../plugins/js/rem.js?ver=0.9.9"></script>
+
+<script src="../../js/common.js?ver=0.9.9"></script>
+
+<script>
+    $(function() {
+        FastClick.attach(document.body);
+    });
+</script>
+
+</body>
+</html>

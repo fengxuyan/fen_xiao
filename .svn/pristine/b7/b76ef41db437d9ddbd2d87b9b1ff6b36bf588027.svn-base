@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>电子烟</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+
+    <link rel="stylesheet" href="../../plugins/css/weui.css?ver=0.9.9">
+    <link rel="stylesheet" href="../../plugins/css/jquery-weui.css?ver=0.9.9">
+    <link rel="stylesheet" href="../../css/home/product_detail.css?ver=0.9.9">
+</head>
+<body>
+<div class="swiper-container">
+    <div class="swiper-wrapper">
+        <div class="swiper-slide" data-initindex=0><img src="../../img/test8.jpeg" alt=""></div>
+        <div class="swiper-slide" data-initindex=1><img src="../../img/test2.jpeg" alt=""></div>
+        <div class="swiper-slide" data-initindex=2><img src="../../img/test3.jpeg" alt=""></div>
+    </div>
+    <div class="swiper-pagination"></div>
+</div>
+<div class="weui-cells good-des">
+    <div class="weui-cell">
+        <div class="weui-cell__hd"><img src=""></div>
+        <div class="weui-cell__bd title-box">
+            <p class="good-title">火星，太阳系由内往外数的第四颗行星太阳系由内往外数的第四颗行星</p><span class="share-icon"></span>
+            <p class="price">￥<span>999.00</span></p>
+        </div>
+        <div class="weui-cell__ft"></div>
+    </div>
+    <div class="weui-cell">
+        <div class="weui-cell__bd">
+            <p class="travel-price">运费 免运费</p>
+        </div>
+    </div>
+</div>
+
+<div class="weui-cells choose-box">
+    <a class="weui-cell weui-cell_access" href="javascript:;">
+        <div class="weui-cell__bd">
+            <p>选择 颜色</p>
+        </div>
+        <div class="weui-cell__ft">
+        </div>
+    </a>
+</div>
+
+<div class="weui-panel weui-panel_access good-des-more">
+    <div class="weui-panel__hd">商品详情</div>
+    <div class="weui-panel__bd">
+        <div class="weui-media-box weui-media-box_appmsg">
+            <div class="weui-media-box__bd">
+                <p class="weui-media-box__desc">由各种物质组成的巨型球状天体，叫做星球。星球有一定的形状，有自己的运行轨道由各种物质组成的巨型球状天体由各种物质组成的巨型球状天体由各种物质组成的巨型球状天体由各种物质组成的巨型球状天体。</p>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+<div class="weui-tabbar footer-btn">
+    <a href="javascript:;" class="weui-tabbar__item">
+        <div class="weui-tabbar__icon">
+            <img src="../../img/gohome.svg" alt="">
+        </div>
+        <p class="weui-tabbar__label">首页</p>
+    </a>
+    <a href="javascript:;" class="weui-tabbar__item">
+        <span class="weui-badge" style="position: absolute;top: -.3em;right: 1.1em;">8</span>
+
+        <div class="weui-tabbar__icon">
+            <img src="../../img/cart.svg" alt="">
+
+        </div>
+        <p class="weui-tabbar__label">购物车</p>
+    </a>
+    <a href="javascript:;" class="weui-tabbar__item add-cart">
+        <p class="weui-tabbar__label">加入购物车</p>
+    </a>
+    <a href="javascript:;" class="weui-tabbar__item buy-now">
+        <p class="weui-tabbar__label">立即购买</p>
+    </a>
+</div>
+</div>
+
+
+<div id="choose-box" class="weui-popup__container popup-bottom">
+    <div class="weui-popup__overlay"></div>
+    <div class="weui-popup__modal">
+        <div class="weui-panel weui-panel_access">
+            <div class="weui-panel__bd">
+                <div class="weui-media-box weui-media-box_appmsg">
+                    <div class="weui-media-box__hd">
+                        <img class="weui-media-box__thumb" src="../../img/test4.jpeg">
+                    </div>
+                    <div class="weui-media-box__bd">
+                        <h4 class="weui-media-box__title">火星，太阳系由内往外数的第四颗行星太阳系由内往外数的第四颗行星</h4>
+                        <p class="weui-media-box__desc">
+                        <p class="price">￥<span>999.00</span></p></p>
+                    </div>
+                    <span class="close"></span>
+                </div>
+
+                <div class="weui-cells__title color-title">颜色</div>
+                <div class="colors">
+                    <div class=" color-item">
+                        <span>红色</span>
+                        <span>黄色</span>
+                        <span>绿色</span>
+                        <span>黑色</span>
+                        <span>黑色</span>
+                        <span>黑色</span>
+                    </div>
+                </div>
+                <div class="weui-cells colors num">
+                    <div class="weui-cell">
+                        <div class="weui-cell__bd">
+                            <p>购买数量</p>
+                        </div>
+                        <div class="weui-cell__ft">
+                            <div class="weui-count">
+                                <a class="weui-count__btn weui-count__decrease"></a>
+                                <input class="weui-count__number" type="number" value="1"/>
+                                <a class="weui-count__btn weui-count__increase"></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="weui-flex btn-box">
+                    <div class="weui-flex__item add-cart">加入购物车</div>
+                    <div class="weui-flex__item buy-now">立即购买</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div id="choose-box-add" class="weui-popup__container popup-bottom">
+    <div class="weui-popup__overlay"></div>
+    <div class="weui-popup__modal">
+        <div class="weui-panel weui-panel_access">
+            <div class="weui-panel__bd">
+                <div class="weui-media-box weui-media-box_appmsg">
+                    <div class="weui-media-box__hd">
+                        <img class="weui-media-box__thumb" src="../../img/test4.jpeg">
+                    </div>
+                    <div class="weui-media-box__bd">
+                        <h4 class="weui-media-box__title">火星，太阳系由内往外数的第四颗行星太阳系由内往外数的第四颗行星</h4>
+                        <p class="weui-media-box__desc">
+                        <p class="price">￥<span>999.00</span></p></p>
+                    </div>
+                    <span class="close"></span>
+                </div>
+
+                <div class="weui-cells__title color-title">颜色</div>
+                <div class="colors">
+                    <div class=" color-item">
+                        <span>红色</span>
+                        <span>黄色</span>
+                        <span>绿色</span>
+                        <span>黑色</span>
+                        <span>黑色</span>
+                        <span>黑色</span>
+                    </div>
+                </div>
+                <div class="weui-cells colors num">
+                    <div class="weui-cell">
+                        <div class="weui-cell__bd">
+                            <p>购买数量</p>
+                        </div>
+                        <div class="weui-cell__ft">
+                            <div class="weui-count">
+                                <a class="weui-count__btn weui-count__decrease"></a>
+                                <input class="weui-count__number" type="number" value="1"/>
+                                <a class="weui-count__btn weui-count__increase"></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="weui-flex btn-box">
+                    <div class="weui-flex__item add-cart-sure">确定</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<script src="../../plugins/js/jquery-2.1.4.js?ver=0.9.9"></script>
+<script src="../../plugins/js/jquery-weui.min.js?ver=0.9.9"></script>
+<script src="../../plugins/js/fastclick.js?ver=0.9.9"></script>
+<script src="../../plugins/js/rem.js?ver=0.9.9"></script>
+<script src="../../plugins/js/swiper.js?ver=0.9.9"></script>
+
+<script src="../../js/common.js?ver=0.9.9"></script>
+<script src="../../js/home/detail.js?ver=0.9.9"></script>
+</body>
+</html>

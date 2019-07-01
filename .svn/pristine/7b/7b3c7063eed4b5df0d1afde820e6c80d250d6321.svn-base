@@ -1,0 +1,170 @@
+body, html {
+  height: 100%;
+  -webkit-tap-highlight-color: transparent;
+  background-color: #efeff4;
+  color: #3d4145;
+}
+
+.swiper-container {
+  .swiper-wrapper img {
+    width: 100%;
+    height: 10rem;
+
+  }
+
+}
+
+.weui-photo-browser-modal {
+  z-index: 99;
+}
+
+.price {
+  color: #ff3b30;
+  margin-left: -.1rem;
+  padding-top: .1rem;
+
+  span {
+    font-size: .5rem;
+  }
+}
+
+.good-des {
+  margin-top: 0;
+  font-size: .4rem;
+
+  .weui-cell__bd {
+    width: 80%
+  }
+
+  .weui-cell {
+    padding: .2rem .2rem;
+  }
+
+  .good-title {
+    width: 85%;
+    word-wrap: break-word;
+    word-break: normal;
+    display: block;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
+
+  .title-box {
+    position: relative;
+  }
+
+
+  .share-icon {
+    position: absolute;
+    top: -.2rem;
+    right: 0;
+    font-size: .3rem;
+    margin-top: .1rem;
+    color: #999;
+    width: .7rem;
+    height: .7rem;
+    display: inline-block;
+    background-image: url("../../img/share.svg");
+    background-size: cover;
+  }
+
+  .share-icon:after {
+    content: '分享';
+    position: absolute;
+    top: .7rem;
+  }
+
+  .travel-price {
+    padding-left: .1rem;
+    font-size: .35rem;
+    color: #999;
+  }
+}
+
+.choose-box {
+  .weui-cells {
+    margin-top: .3rem;
+  }
+
+  .weui-cell {
+    font-size: .4rem;
+  }
+
+
+}
+#choose-box {
+  a {
+    position: relative;
+  }
+  .colors {
+    span {
+      margin-right: .1rem;
+      border: 1px solid #ddd;
+      padding: .1rem .3rem;
+      border-radius: 3px;
+      margin-bottom: 0.2rem;
+      display: inline-block;
+    }
+    //border-top: 1px solid #e5e5e5;
+  }
+  .weui-cells {
+    color: #3d4145;
+    font-size: .4rem;
+  }
+  .weui-media-box__title {
+    font-size: .4rem;
+    width: 90%;
+  }
+  .price span {
+    font-size: .4rem;
+  }
+  .weui-cells:before {
+    border: 0;
+  }
+  .weui-cells:after {
+    border: 0;
+  }
+  .weui-count .weui-count__number {
+    font-size: .4rem;
+  }
+  .num ,.color-title{
+    border-top: .5px solid #efefef;
+  }
+  .btn-box{
+    height: 1.4rem;
+    line-height: 1.4rem;
+    margin-bottom: .5rem;
+    margin-top: .1rem;
+    text-align: center;
+    font-size: .4rem;
+    .buy-now {
+      color: #fff;
+      background-color: #04BE02;
+    }
+    .add-cart {
+      color: #04BE02;
+      background-color: rgba(4,190,2,.2);
+    }
+  }
+  .close {
+    position: absolute;
+    top: 0;
+    right: .2rem;
+    font-size: .3rem;
+    margin-top: .1rem;
+    color: #999;
+    width: .7rem;
+    height: .7rem;
+    display: inline-block;
+    background-image: url("../../img/close.svg");
+    background-size: cover;
+
+  }
+  .weui-media-box_appmsg .weui-media-box__hd {
+    width: 2rem;
+    height: 2rem;
+  }
+}
+

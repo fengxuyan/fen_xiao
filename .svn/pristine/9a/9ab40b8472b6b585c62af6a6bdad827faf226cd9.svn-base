@@ -1,0 +1,68 @@
+$(function () {
+    FastClick.attach(document.body);
+});
+
+//初始化轮播图
+$(".swiper-container").swiper({
+    loop: true,
+    autoplay: 3000
+});
+
+//图片放大浏览
+$('.swiper-slide ').on('click',function () {
+    var pb = $.photoBrowser({
+        items: [
+            "../../img/test8.jpeg",
+            "../../img/test2.jpeg",
+            "../../img/test3.jpeg",
+        ],
+        initIndex: $(this).data('initindex')
+    });
+    pb.open();  //打开
+})
+
+//颜色选择
+$(".choose-box").on('click',function () {
+    $("#choose-box").popup();
+})
+$(".close").on('click',function () {
+    $.closePopup()
+})
+
+
+//分享弹出
+$(".share-icon").on('click',function () {
+    $.actions({
+        title: '分享推荐给好友',
+        actions: [{
+            text: "发送给朋友",
+            onClick: function() {
+                //do something
+            }
+        },{
+            text: "生成海报",
+            onClick: function() {
+                //do something
+            }
+        }]
+    });
+})
+
+
+//计数器
+var MAX = 99, MIN = 1;
+$('.weui-count__decrease').click(function (e) {
+    var $input = $(e.currentTarget).parent().find('.weui-count__number');
+    var number = parseInt($input.val() || "0") - 1
+    if (number < MIN) number = MIN;
+    $input.val(number)
+})
+$('.weui-count__increase').click(function (e) {
+    var $input = $(e.currentTarget).parent().find('.weui-count__number');
+    var number = parseInt($input.val() || "0") + 1
+    if (number > MAX) number = MAX;
+    $input.val(number)
+})
+
+
+
